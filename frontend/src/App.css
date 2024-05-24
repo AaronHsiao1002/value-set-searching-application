@@ -1,0 +1,167 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.search-input {
+  width: 60%; /* Adjust the width as desired */
+  padding: 10px; /* Reduce the padding */
+  margin: 5px 0; /* Adjust the margin as desired */
+  font-size: 14px; /* Reduce the font size */
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #aaa;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  width: 100%;
+} */
+/* Update the CSS for the modal content to center align the value set details */
+
+.modal-content {
+  width: 400px; /* Adjust width as needed */
+  background-color: #fefefe;
+  margin: 15% auto; /* Center the modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center align the content */
+}
+
+.close {
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  float: right;
+}
+
+.medications-list {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.medication-details {
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Update the CSS for the "Show Details" button */
+/* Update the CSS for the "Show Details" button */
+
+.show-details-button {
+  background-color: #4caf50; /* Green background */
+  border: none;
+  color: white;
+  padding: 6px 12px; /* Reduced padding */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Reduced font size */
+  margin-left: 5px; /* Add margin to the left */
+  margin-right: 10px; /* Add margin to the right */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+}
+
+.show-details-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.custom-select {
+  width: 20%; /* Adjust width as needed */
+  margin-right: 10px; /* Add space between select and input */
+  padding: 8px; /* Padding inside the select box */
+  font-size: 14px; /* Font size */
+  border: 2px solid #ddd; /* Border style */
+  border-radius: 4px; /* Rounded corners */
+  background-color: white; /* Background color */
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* Remove default arrow in Webkit browsers */
+  -moz-appearance: none; /* Remove default arrow in Firefox */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+  cursor: pointer; /* Pointer cursor on hover */
+  outline: none; /* Remove outline */
+}
+
+.custom-select:hover {
+  border-color: #aaa; /* Border color on hover */
+}
+
+.search-button {
+  margin-left: 10px; /* Add space to the left of the button */
+  padding: 8px 12px; /* Adjust padding as needed */
+  font-size: 14px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #ddd; /* Background color */
+  color: rgb(6, 6, 6); /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.search-button:hover {
+  background-color: #aaa; /* Darker background on hover */
+}
+
+/* Add this to your CSS file (e.g., App.css) */
+
+.show-all-button {
+  padding: 8px 16px; /* Adjust padding as needed */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #ddd; /* Background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin-top: 20px; /* Add margin to separate it from other elements */
+}
+
+.show-all-button:hover {
+  background-color: #aaa; /* Darker background on hover */
+}
